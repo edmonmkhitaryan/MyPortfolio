@@ -1,0 +1,29 @@
+body{
+    background-color: #040404;
+    background-size: 1000px 900px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.gndak{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: azure;
+    animation: anim 3s linear infinite,
+    anim1 12s linear infinite;
+}
+@keyframes anim{
+    0%{bottom: 100%;}
+    25%{bottom: 0;width: 100px;height: 100px;}
+    30%{bottom: 0;width: 110px;height: 50px;}
+    35%{bottom: 0;width: 100px;height: 100px;}
+    70%{bottom: 100%;}
+    100%{bottom: 100%;}
+}
+@keyframes anim1{
+    from{left:0;}
+    to{left:100%;}
+}

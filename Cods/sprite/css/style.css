@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../img/orig-removebg-preview.png);
+    width: 293px;
+    height: 284px;
+    animation: anim .7s steps(3) infinite;
+}
+@keyframes anim{
+    to{
+        background-position: 0px;
+    }
+    from{
+        background-position: 878px;
+    }
+}

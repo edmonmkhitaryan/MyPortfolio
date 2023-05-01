@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav{
+    width: 500px;
+    padding: 30px 40px;
+}
+#input{
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0,0.3);
+}
+#input input{
+    width: 70%;
+    height: 50px;
+    border: 2px solid  whitesmoke;
+    font-size: 18px;
+    color: black;
+    font-family: 'Popppins',sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+#input input:focus{
+    outline: none;
+    border-color: #e66465;
+}
+#input button{
+    width: 20%;
+    height: 70px;
+    border-radius: 5px;
+    font-family: 'Popppins',sans-serif;
+    border: none;
+    background-color:#e66465 ;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+}
+#task{
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.tasks{
+    background-color: #ffffff;
+    height: 50px;
+    padding:  5px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #e66465 2px solid;
+}
+.tasks span{
+    font-family: 'Popppins',sans-serif;
+    font-size: 16px;
+}
+.tasks button{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    border: none;
+}
+.tasks button i{
+    font-size: 17px;
+    cursor: pointer;
+}
+.git{
+    text-decoration: line-through;
+}

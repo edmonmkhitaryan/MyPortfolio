@@ -1,0 +1,381 @@
+@media screen and (max-width:1350px){
+    .klorner{
+     left: 49%;
+    }
+    .main421 .p p{
+     font-size: 12px;
+    }
+    .main421 .p{
+     width: 90%;
+     height: 150px;
+    }
+    .brend{
+        width: 80%;
+    }
+ }
+ @media screen and (max-width:1312px){
+    .klorner{
+     display: none;
+    }
+ }
+ @media screen and (max-width:1270px){
+    .brend{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1115px){
+    .main32 div{
+        width: 20%;
+        height: 200px;
+    }
+ }
+@media screen and (max-width:1100px){
+    nav ul{
+        margin: 0 0 0 0px;
+    }
+    header{
+        background-image: none;
+        background-color: #4C3F30 !important;
+    }
+    .brend{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1050px){
+    .main_{
+        height: 1200px;
+    }
+    .main_2 img{
+        width: 500px;
+        height: 500px;
+    }
+    .main_2 .boxes{
+        height: 600px;
+    }
+    .main_2{
+        flex-direction: column;
+    }
+    .main2{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:1020px){
+    .brend div{
+        width: 15%;
+        height: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .main7 .main71{
+     flex-direction: column;
+     flex-wrap: nowrap;
+     align-items: center;
+    }
+    .main7{
+     height: 4300px;
+    }
+    .main7 .main71{
+     height: 4000px;
+    }
+    .main71 .text{
+     width: 100%;
+     height: 600px;
+    }
+    .main71 .img{
+     width: 50%;
+     height: 400px;
+    }
+    .footer2 p{
+        margin: 0 0 0 20px;
+    }
+    .footer2 .img{
+        margin: 0 20px 0 0 ;
+    }
+ }
+ @media screen and (max-width:960px){
+    .main2 img{
+        display: none;
+    }
+ }
+ @media screen and (max-width:927px){
+    .main32 div{
+        width: 15%;
+        height: 150px;
+    }
+ }
+ @media screen and (max-width:900px){
+    .main42{
+        flex-direction: column;
+    }
+    .main4{
+        height: 1500px;
+    }
+    .main42{
+        height: 1000px;
+    }
+    .main421 .p{
+        width: 500px;
+    }
+    .main42 img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+   main{
+    flex-direction: column;
+   }
+   nav{
+    flex-direction: column;
+   }
+   .main32 div{
+    width: 12%;
+    height: 100px;
+}
+}
+@media screen and (max-width:780px){
+    .main8{
+        background-color: #352525;
+        background-image: none;
+        justify-content: space-around;
+    }
+ }
+ @media screen and (max-width:750px){
+    .help .div{
+        left: 0px;
+    }
+}
+@media screen and (max-width:740px){
+    .main421 h1{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:735px){
+    .reg{
+        flex-direction: column;
+    }
+    .reg1{
+        width: 100%;
+        height: 400px;
+    }
+    form{
+        width: 100%;
+        height: 400px;
+    }
+    form button{
+        align-self: center;
+        margin: 10px 0 0 0;
+    }
+    .footer1{
+        background-image: none;
+        background-color: #4C3F30;
+       }
+}
+@media screen and (max-width:700px){
+   .text p{
+    width: 400px;
+   }
+   .text h1{
+    font-size: 40px;
+   }
+   .buttons{
+    justify-content: center;
+   }
+   .buttons .b1{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+   }
+    .buttons .b2{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+   }
+   .main32{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .main31 p{
+    font-size: 12px;
+    width: 200px;
+   }
+   .main32 div{
+    width: 25%;
+    height: 150px;
+   }
+}
+@media screen and (max-width:650px){
+    .main2{
+        margin-top: 150px;
+    }
+    .main21{
+        align-items: flex-start;
+    }
+    .main421 .img{
+       width: 70px;
+       height: 70px;
+   }
+   .main421 .img img{
+       width: 25px;
+       height: 25px;
+   }
+}
+@media screen and (max-width:640px){
+    .like{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .like .glav{
+        width: 70%;
+    }
+}
+@media screen and (max-width:630px){
+    .help .div{
+        width: 100px;
+        height: 100px;
+        left: 25px;
+        top: 110px;
+    }
+    .pomsh1 p{
+        font-size: 12px;
+    }
+    .pomsh1 button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:625px){
+    .main421 h1{
+        font-size: 14px;
+    }
+    .main421 .p{
+        height: 200px;
+        width: 100%;
+    }
+    .main41 p{
+        font-size: 12px;
+    }
+    .main42 img{
+        height: 400px;
+    }
+}
+ @media screen and (max-width:600px){
+   nav{
+    height: 300px;
+   }
+    ul{
+    flex-direction: column;
+    align-items: center;
+   }
+  }
+  @media screen and (max-width:550px){
+    .main51{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .main5{
+        height: 2500px;
+    }
+    .help{
+        width: 100%;
+    }
+    .help .div{
+        width: 150px;
+        height: 150px;
+        left: 65px;
+        top: 95px;
+    }
+}
+@media screen and (max-width:540px){
+    .main61 h1{
+     font-size: 20px;
+    }
+ }
+ @media screen and (max-width:500px){
+    .main_1{
+        flex-direction: column;
+    }
+    .main_1 .boxes h1{
+        font-size: 15px ;
+    }
+    .main_2 img{
+        width: 400px;
+        height: 300px;
+    }
+    .main71 .img{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width:480px){
+    .main41{
+        width: 80%;
+    }
+}
+@media screen and (max-width:465px){
+    .main2{
+        justify-content: center;
+        height: 1000px;
+    }
+    .main21{
+        height: 1000px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:450px){
+    .text .buttons{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text p{
+        width: 200px;
+        height: 150px;
+    }
+    .brend{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .brend div{
+        width: 80%;
+        height: 200px;
+    }
+    .main6{
+        height: 1500px;
+    }
+}
+@media screen and (max-width:425px){
+    .main421 button{
+        height: 20px;
+    }
+    .main421 .p p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:380px){
+    .main_2 .boxes{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:360px){
+    .main_1 .boxes p{
+        display: none;
+    }
+    .main_1 .boxes h1{
+        font-size: 10px;
+    }
+    .main_2 img{
+        width: 300px;
+        height: 200px;
+    }
+    .main_2 .boxes h1{
+        font-size: 25px;
+    }
+}
+ @media screen and (max-width:351px){
+     .main21{
+         height: 1200px;
+     }
+     .main2{
+         height: 1200px;
+     }}

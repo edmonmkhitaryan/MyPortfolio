@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/Topographic\ Elevation\ Maps\ Graphics\ -\ YouWorkForThem.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+}
+header{
+    width: 80%;
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: solid 8px darkolivegreen;
+}
+header h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.phone{
+    width: 100%;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.headphone{
+    width: 100%;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+.nootbuk{
+    width: 100%;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: solid 5px darkolivegreen;
+}
+img:hover{
+    transform: scale(1.3);
+}
+h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+  appearance: none;
+  background-color: #000000;
+  border: 5px solid darkolivegreen;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  will-change: transform;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+span{
+    color: darkolivegreen;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons{
+    margin: 20px 0 20px 0;
+}
+.buttons button{
+    width: 300px;
+    height: 100px;
+    background-color: azure;
+    border: none;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+} 
+

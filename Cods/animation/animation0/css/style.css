@@ -1,0 +1,85 @@
+*{
+    background-color: black;
+}
+.ed{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 570px;
+    animation-name: edd;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(45deg);
+    background-color: white;
+}
+@keyframes edd{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}  
+
+.es{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 640px;
+    animation-name: ess;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(45deg);
+    background-color: white;
+}
+@keyframes ess{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}  
+.el{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 570px;
+    top: 320px;
+    animation-name: ell;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(45deg);
+    background-color: white;
+}
+@keyframes ell{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}  
+
+.ev{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    animation-name: evv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg);
+    background-color: white;
+    animation-direction: alternate;
+}
+@keyframes evv{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{opacity: 1;}
+} 

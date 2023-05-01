@@ -1,0 +1,1949 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.glav{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 1200px;
+    height: 68px;
+    border-radius: 30px;
+    display: flex;
+    margin: 20px 0 0 0;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    width: 900px;
+}
+@media screen and (max-width:840px) {
+    .menu{
+        width: 300px;
+        flex-direction: column;
+    }
+    .menu .two{
+        display: none;
+    }
+    .codex{
+        width: 500px !important;
+        
+    }
+    .burger {
+        display: none !important;
+        width: 100px;
+        height: 100px;
+    }
+    .burger:checked ~ .two {
+        display: flex !important;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        
+    }
+    label{
+        display: block !important;
+        font-size: 50px;
+        color: black;
+    }
+    .twit{
+        margin: 0 !important;
+    }
+    .inst{
+        margin: 0  !important;
+    }
+    .face{
+        margin: 0 !important;
+    }
+}
+.burger{
+    display: none;
+}
+label{
+    display: none;
+}
+.codex{
+    width: 150px;
+    height: 68px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 120px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: black;
+    transition: .5s;
+    border-radius: 10px;
+}
+.about h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nft{
+    width: 120px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nft h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: black;
+    transition: .5s;
+    border-radius: 10px;
+}
+.nft h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.contact{
+    width: 120px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: black;
+    transition: .5s;
+    border-radius: 10px;
+}
+.contact h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.twit{
+    width: 16px;
+    height: 13px;
+    margin: 25px 0 0 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inst{
+    width: 16px;
+    height: 13px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inst img{
+    width: 17px;height: 17px;
+}
+.face{
+    width: 16px;
+    height: 13px;
+    margin: 25px 0 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viev{
+    align-items: flex-end;
+    width:200px;
+    height: 68px;
+    margin: 0 0 0  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viev button{
+    width: 144px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#2F2F2F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    color: white;
+    transition: 1s;
+}
+.viev button:hover{
+    background-color: white;
+    color: #2F2F2F;
+    transform: scale(1.2);
+    cursor: pointer;
+    border: white ;
+    font-size: 15px;
+}
+@media screen and (max-width:1180px){
+    .twit{
+        margin: 25px 0 0 100px;
+    }
+    .nav{
+        width: 950px;
+    }
+}
+@media screen and (max-width:950px){
+    .twit{
+        margin: 25px 0 0 20px;
+    }
+    .nav{
+        width: 850px;
+    }
+    .viev{
+        margin: 0 0 0  20px;
+    }
+}
+@media screen and (max-width:860px){
+    .nav{
+        width: 850px;
+        display: flex;
+    }
+    .viev{
+        margin: 0;
+    }
+}
+.glav1{
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.glav1 .glav11{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.glav1 .glav11 .glav111{
+    width: 145px;
+    height: 14px;
+    margin: 0 0 0 50px ;
+}
+.glav1 .glav11 .glav112{
+    width: 372px;
+    height: 64px;
+    margin: 0 0 0 50px ;
+}
+.glav1 .glav11 .glav113{
+    width: 538px;
+    height: 64px;
+    margin: 0 0 0 50px ;
+}
+.glav1 .glav11 .glav114{
+    width: 420px;
+    height: 55px;
+    margin: 0 0 0 50px ;
+}
+.glav1 .glav12{
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.glav1 .glav12 .glav121{
+    width: 325px;
+    height: 325px;
+    border-radius: 20px;
+    background-image: url(../img/IMAGE\ \(1\).png);
+    position: absolute;
+    left: 10%;
+    top: 130px;
+}
+.glav1 .glav12 .glav122{
+    width: 410px;
+    height: 410px;
+    border-radius: 20px;
+    background-image: url(../img/IMAGE\ \(2\).png);
+    position: absolute;
+    left: 37.5%;
+    top: 230px;
+}
+.glav12 .img1{
+    width: 143px;
+    height: 71px;
+    border-radius: 30px;
+    background-image: url(../img/Rectangle.png);
+    position: absolute;
+    top: 5px;
+    right: 250px;
+}
+.glav12 .img1 img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.glav12 .img1 .p1{
+    font-size: 11px;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.glav12 .img1 .p2{
+    font-size: 8px;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.glav12 .img2{
+    width: 143px;
+    height: 71px;
+    border-radius: 30px;
+    background-image: url(../img/Rectangle\ \(1\).png);
+    position: absolute;
+    top: 325px;
+    right: 315px;
+}
+.glav12 .img2 img{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+.glav12 .img2 .p1{
+    font-size: 11px;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+}
+.glav12 .img2 .p2{
+    font-size: 8px;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+@media screen and (max-width:1100px) {
+    .glav4{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .glav1{
+        display: flex;
+        flex-direction: column;
+        margin:150px 0 0 0;
+    }
+    .glav2{
+        margin: 300px 0 400px 0 !important;
+    }
+}
+@media screen and (max-width:610px) {
+    .glav11{
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+    }
+}
+@media  screen and (max-width:1000px) {
+    .img1{
+        right: 220px;
+    }
+}
+.glav1 .glav11 .glav111 h1{
+    color:#82CBAC;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+}
+.glav1 .glav11 .glav112 h1{
+    color: #2F2F2F;
+    font-size: 64px;
+    font-family: 'Outfit', sans-serif;
+}
+.glav1 .glav11 .glav113 h1{
+    color: #2F2F2F;
+    font-size: 64px;
+    font-family: 'Outfit', sans-serif;
+}
+.glav1 .glav11 .glav114 p{
+    color: #2F2F2F;
+    font-size: 17px;
+    font-family: 'Outfit', sans-serif;
+    margin: 20px 0 0 0;
+}
+
+.glav2{
+    width: 100%;
+    height: 152px;
+    margin: 200px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.glav2 div{
+    width: 170px;
+    height: 152px;
+}
+.glav2 div:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.glav2 div:nth-child(1){
+    background-image: url(../img/IMAGE\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(2){
+    background-image: url(../img/IMAGE\ \(7\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(3){
+    background-image: url(../img/IMAGE\ \(8\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(4){
+    background-image: url(../img/IMAGE\ \(9\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(5){
+    background-image: url(../img/IMAGE\ \(10\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(6){
+    background-image: url(../img/IMAGE\ \(11\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(7){
+    background-image: url(../img/IMAGE\ \(12\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(8){
+    background-image: url(../img/IMAGE\ \(13\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav2 div:nth-child(9){
+    background-image: url(../img/IMAGE\ \(14\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glav3{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 0 0;
+}
+.glav3 .glav31{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.glav3 .glav311{
+    width: 505px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+.glav3 .glav312{
+    width: 610px;
+    height: 26px;
+}
+.glav3 .glav313{
+    width: 202px;
+    height: 26px;
+}
+.glav3 .glav32{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.glav3 .glav321{
+    width: 179px;
+    height: 50px;
+    margin: 0 0 0 100px;
+}
+.glav3 .glav322{
+    width: 179px;
+    height: 50px;
+    margin: 0 10px 0 10px;
+}
+.glav3 .glav323{
+    width: 179px;
+    height: 50px;
+}
+.glav3 .glav33{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.glav3 .glav33 .glav331{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+.glav3 .glav33 .glav332{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.glav3 .glav33 .glav332 .glav3321{
+    width: 96px;
+    height: 18px;
+}
+.glav3 .glav33 .glav332 .glav3322{
+    width: 341px;
+    height: 72px;
+}
+.glav3 .glav33 .glav332 .glav3323{
+    width: 477px;
+    height: 208px;
+
+}
+@media screen and (max-width:690px) {
+    .glav33{
+        flex-direction: column !important ;
+        height: 800px !important;
+    }
+    .glav321{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .glav321 button{
+        width: 140px !important;
+    }
+    .glav322 button{
+        width: 140px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .glav323 button{
+        width: 140px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .glav4{
+        margin: 100px 0 0 0  !important;
+    }
+}
+@media screen and (max-width:500px){
+    .glav3{
+        margin: 200px 0 0 0 !important;
+    }
+    .glav112 h1{
+        font-size: 50px !important;
+    }
+    .glav113 h1{
+        font-size: 50px !important;
+        margin: 0 0 0 40px !important;
+    }
+    .glav311 h1{
+        font-size: 50px !important;
+        margin: 0 0 0 40px !important;
+    }
+    .glav312 h1{
+        font-size: 15px !important;
+        margin: 0 0 0 30px !important;
+    }
+    .block{
+        display: none;
+    }
+}
+.glav311 h1{
+    font-family: 'Outfit';
+    font-size: 64px;
+    color: #2F2F2F;
+}
+.glav312 h1{
+    font-family: 'Outfit';
+    font-size: 17px;
+    color: #2F2F2F;
+}
+.glav313 h1{
+    font-family: 'Outfit';
+    font-size: 17px;
+    color: #2F2F2F;
+}
+.glav321 button{
+   width: 179px;
+   height: 50px;
+   border: #2F2F2F solid 2px;
+   color: #2F2F2F;
+   font-family: 'Outfit';
+   background-color: white;
+   font-size: 22px;
+   border-radius: 30px;
+   transition: .2s;
+   cursor: pointer;
+}
+.glav321 button:hover{
+    border: white;
+    color: white;
+    background-color: #2F2F2F;
+    transform: scale(1.1);
+}
+.glav322 button{
+    width: 179px;
+    height: 50px;
+    border: #2F2F2F solid 2px;
+    color: #2F2F2F;
+    font-family: 'Outfit';
+    background-color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: .2s;
+    cursor: pointer;
+ }
+ .glav322 button:hover{
+     border: white;
+     color: white;
+     background-color: #2F2F2F;
+     transform: scale(1.1);
+ }
+ .glav323 button{
+    width: 179px;
+    height: 50px;
+    border: #2F2F2F solid 2px;
+    color: #2F2F2F;
+    font-family: 'Outfit';
+    background-color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: .2s;
+    cursor: pointer;
+ }
+ .glav323 button:hover{
+     border: white;
+     color: white;
+     background-color: #2F2F2F;
+     transform: scale(1.1);
+ }
+ .glav3321 h1{
+    color: #FF7F96;
+    font-size: 16px;
+    font-family: 'Outfit';
+ }
+ .glav3322 h1{
+    color: #2F2F2F;
+    font-size: 36px;
+    font-family: 'Outfit';
+ }
+ .glav3323 h1{
+    color: #2F2F2F;
+    font-size: 20px;
+    font-family: 'Outfit';
+ }
+ .glav3323{
+    margin: 20px 0 0 0;
+ }
+ .glav311{
+    margin: 0 0 20px 0;
+ }
+
+.glav4{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.glav4 .glav41{
+    width: 600px;
+    height: 450px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(20\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+}
+.glav4 .glav41:hover{
+    transform: rotate3d(0,1,0,180deg);
+    background-image: url(../img/IMAGE\ \(21\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav4 .glav42{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.glav4 .glav42 .glav421{
+    width: 193px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav4 .glav42 .glav422{
+    width: 486px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav4 .glav42 .glav423{
+    width: 545px;
+    height: 78px;
+    margin: 38px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav4 .glav42 .glav424{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.glav424 .glav4241{
+    width: 166px;
+    height: 44px;
+    border: black solid 1px;
+}
+@media  screen and (max-width:590px) {
+    .glav424{
+        justify-content: center !important;
+    }
+    .glav42{
+        align-items: center !important;
+    }
+    .glav421 h1{
+        font-size: 25px !important;
+    }
+    .glav422 h1{
+        font-size: 25px !important;
+    }
+    .glav423{
+        height: 175px !important;
+        width: 400px !important;
+    }
+    .glav423 h1{
+        font-size: 15px !important;
+    }
+}
+.glav421 h1{
+    color: #2F2F2F;
+    font-size: 35px;
+    font-family: 'Outfit';
+}
+.glav422 h1{
+    color: #2F2F2F;
+    font-size: 48px;
+    font-family: 'Outfit';
+}
+.glav423 h1{
+    color: #2F2F2F;
+    font-size: 18px;
+    font-family: 'Outfit';
+}
+.glav424 button{
+    background-color: #2F2F2F;
+    border: 1px solid #2F2F2F;
+    color: white;
+    width: 166px;
+    height: 44px;
+    font-size: 15px;
+    font-family: 'Outfit';
+    cursor: pointer;
+    transition: 1s;
+}
+.glav424 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #2F2F2F;
+    transform: scale(1.1);
+}
+
+.glav5{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.glav51{
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.glav52{
+    width: 600px;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+}
+.glav5 .glav52:hover{
+    transform: rotate3d(1,0,0,360deg);
+    background-image: url(../img/IMAGE\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glav511{
+    width: 600px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.glav5111{
+    width: 57px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #82CBAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.glav5111:hover{
+    background-color: white;
+    border: #82CBAC 1px solid;
+    transform: rotate3d(0,0,1,360deg);
+    cursor: pointer;
+}
+.glav5111:hover h1{
+    color: #82CBAC;
+}
+.glav5112{
+    width: 271px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav5113{
+    width: 431px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav512{
+    width: 600px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.glav5121{
+    width: 57px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #FF7F96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.glav5121:hover{
+    background-color: white;
+    border: #FF7F96 1px solid;
+    transform: rotate3d(0,0,1,360deg);
+    cursor: pointer;
+}
+.glav5121:hover h1{
+    color: #FF7F96;
+}
+.glav5122{
+    width: 320px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav5123{
+    width: 431px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav513{
+    width: 600px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.glav5131{
+    width: 57px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #f69d3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.glav5131:hover{
+    background-color: white;
+    border: #f69d3c 1px solid;
+    transform: rotate3d(0,0,1,360deg);
+    cursor: pointer;
+}
+.glav5131:hover h1{
+    color: #f69d3c;
+}
+.glav5132{
+    width: 230px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav5133{
+    width: 431px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav5111 h1{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: white;
+}
+.glav5112 h1{
+    font-family: 'Outfit';
+    font-size: 35px;
+    color: #2F2F2F;
+}
+.glav5113 h1{
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: #2F2F2F;
+}
+.glav5121 h1{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: white;
+}
+.glav5122 h1{
+    font-family: 'Outfit';
+    font-size: 35px;
+    color: #2F2F2F;
+}
+.glav5123 h1{
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: #2F2F2F;
+}
+.glav5131 h1{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: white;
+}
+.glav5132 h1{
+    font-family: 'Outfit';
+    font-size: 35px;
+    color: #2F2F2F;
+}
+.glav5133 h1{
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: #2F2F2F;
+}
+@media screen and (max-width:960px){
+    .glav5{
+        flex-direction: column !important;
+        height: 1000px !important;
+    }
+}
+@media screen and (max-width:720px){
+    .glav511{
+        align-items: flex-end !important;
+    }
+    .glav512{
+        align-items: flex-end !important;
+    }
+    .glav513{
+        align-items: flex-end !important;
+    }
+}
+@media screen and (max-width:610px){
+    .glav511{
+        align-items: center !important;
+    }
+    .glav512{
+        align-items: center !important;
+    }
+    .glav513{
+        align-items: center !important;
+    }
+}
+
+.glav6{
+    width: 100%;
+    height: 420px;
+    margin: 200px 0 0 0;
+    background-color: #82CBAC;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.glav7{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.glav7 .glav71{
+    width: 620px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav7 .glav72{
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.glav7 .glav73{
+    width: 134px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glav721{
+    width: 358px;
+    height: 313px;
+    border-radius: 30px;
+}
+.glav7211{
+    width: 358px;
+    height: 221px;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../img/IMAGE\ \(26\).png);
+    transition: 2s;
+}
+.glav7211:hover{
+    transform: rotate3d(1,0,0,90deg);
+}
+.glav7212{
+    width: 358px;
+    height: 92px;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.glav7212 h1{
+    font-size: 21px;
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    margin:  0 0 0 50px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.glav7212 h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+}
+.glav722{
+    width: 358px;
+    height: 313px;
+    border-radius: 30px;
+}
+.glav7221{
+    width: 358px;
+    height: 221px;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../img/IMAGE\ \(27\).png);
+    transition: 2s;
+}
+.glav7221:hover{
+    transform: rotate3d(1,0,0,90deg);
+}
+.glav7222{
+    width: 358px;
+    height: 92px;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.glav7222 h1{
+    font-size: 21px;
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    margin:  0 0 0 50px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.glav7222 h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+}
+.glav723{
+    width: 358px;
+    height: 313px;
+    border-radius: 30px;
+}
+.glav7231{
+    width: 358px;
+    height: 221px;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../img/IMAGE\ \(28\).png);
+    transition: 2s;
+}
+.glav7231:hover{
+    transform: rotate3d(1,0,0,90deg);
+}
+.glav7232{
+    width: 358px;
+    height: 92px;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.glav7232 h1{
+    font-size: 21px;
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    margin:  0 0 0 50px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.glav7232 h1:hover{
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: scale(1.1);
+}
+@media screen and (max-width:1185px){
+   .glav7{
+    height: 1600px !important;
+   }
+   .glav72{
+    height: 900px !important;
+    flex-direction: column !important;
+   }
+}
+@media screen and (max-width:960px) {
+    .glav72{
+        height: 1200px !important;
+        flex-direction: column !important;
+       }
+}
+@media screen and (max-width:640px){
+    .glav71{
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:515px){
+    .glav71{
+        width: 400px !important;
+        height: 100px !important;
+    }
+}
+@media screen and (max-width:380px){
+    .glav71{
+        width: 300px !important;
+        height: 100px !important;
+    }
+    .glav7212{
+        justify-content: center !important;
+    }
+    .glav7222{
+        justify-content: center !important;
+    }
+    .glav7232{
+        justify-content: center !important;
+    }
+}
+.glav71 h1{
+    font-family: 'Outfit';
+    font-size: 63px;
+    color: #2F2F2F;
+}
+.glav73 button{
+    width: 134px;
+    height: 44px;
+    background-color: #2F2F2F;
+    font-size: 14px;
+    color: white;
+    transition: 1s;
+}
+.glav73 button:hover{
+    color: #2F2F2F;
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.glav8{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.glav81{
+    width: 239px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav81 h1{
+    font-family: 'Outfit';
+    font-size: 64px;
+    color: #2F2F2F;
+}
+.glav82{
+    width: 1072px;
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.glav821{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8211{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(29\).png);
+}
+.glav8212{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82121{
+    width: 87px;
+    height: 18px;
+}
+.glav82122{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82123{
+    width: 38px;
+    height: 38px;
+}
+.glav82124{
+    width: 38px;
+    height: 38px;
+}
+.glav822{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8221{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(30\).png);
+}
+.glav8222{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82221{
+    width: 87px;
+    height: 18px;
+}
+.glav82222{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82223{
+    width: 38px;
+    height: 38px;
+}
+.glav82224{
+    width: 38px;
+    height: 38px;
+}
+.glav823{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8231{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(31\).png);
+}
+.glav8232{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82321{
+    width: 87px;
+    height: 18px;
+}
+.glav82322{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82323{
+    width: 38px;
+    height: 38px;
+}
+.glav82324{
+    width: 38px;
+    height: 38px;
+}
+.glav824{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8241{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(32\).png);
+}
+.glav8242{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82421{
+    width: 87px;
+    height: 18px;
+}
+.glav82422{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82423{
+    width: 38px;
+    height: 38px;
+}
+.glav82424{
+    width: 38px;
+    height: 38px;
+}
+.glav825{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8251{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(33\).png);
+}
+.glav8252{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82521{
+    width: 87px;
+    height: 18px;
+}
+.glav82522{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82523{
+    width: 38px;
+    height: 38px;
+}
+.glav82524{
+    width: 38px;
+    height: 38px;
+}
+.glav826{
+    width: 332px;
+    height: 288px;
+    display: flex;
+    flex-direction:column;
+}
+.glav8261{
+    width: 332px;
+    height: 210px;
+    border-radius: 30px;
+    background-image: url(../img/IMAGE\ \(34\).png);
+}
+.glav8262{
+    width: 332px;
+    height: 78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glav82621{
+    width: 87px;
+    height: 18px;
+}
+.glav82622{
+    width: 63px;
+    height: 18px;
+    margin: 0 40px 0 0;
+}
+.glav82623{
+    width: 38px;
+    height: 38px;
+}
+.glav82624{
+    width: 38px;
+    height: 38px;
+}
+.glav83{
+    width: 134px;
+    height: 44px;
+}
+.glav83 button{
+    width: 134px;
+    height: 44px;
+    background-color: #2F2F2F;
+    font-size: 14px;
+    color: white;
+    transition: 1s;
+}
+.glav83 button:hover{
+    color: #2F2F2F;
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media screen and (max-width:1100px){
+    .glav82{
+        width: 740px;
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .glav82{
+        width: 370px;
+        height: 2100px;
+    }
+    .glav8{
+        height: 2500px;
+    }
+}
+.pomsh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pomsh h1{
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: #2F2F2F;
+}
+.pomsh1{
+    width: 100px;
+}
+.ognutyun1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8C1D8 ;
+    cursor: pointer;
+    transition: 1s;
+}
+.ognutyun1:hover{
+    transform: scale(1.2) rotateX(360deg);
+}
+.ognutyun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7F96;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.ognutyun:hover{
+    transform: scale(1.2) rotateY(360deg);
+}
+.help{
+    transition: 2s;
+}
+.help:hover{
+    transform: scale3d(0,0,1.3);
+} 
+.glav9{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.glav91 h1{
+    font-size: 64px;
+    font-family: 'Outfit';
+    color: #2F2F2F;
+}
+.glav911{
+    width: 129px;
+    height: 64px;
+}
+.glav99{
+    height: 82px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.glav99 p{
+    font-size: 22px;
+    font-family: 'Outfit';
+    color: #2F2F2F;
+}
+.glav999{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/plus1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 200px;
+    cursor: pointer;
+}
+.glav999:hover{
+    background-image: url(../img/cross.png);
+    transform: rotate3d(1,0,0,180deg);
+}
+@media screen and (max-width:1100px){
+    .glav999{
+        margin: 0 0 0 100px !important;
+    }
+}
+@media screen and (max-width:730px){
+    .glav999{
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width:540px){
+    .glav99{
+        flex-direction: column;
+        height: 200px;
+    }
+}
+
+.glav10{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.glav101{
+    width: 50%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.glav1011{
+    width: 100%;
+    height: 160px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.glav10111{
+    width: 134px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav10112{
+    width: 183px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav10113{
+    width: 95px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.glav1012{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.glav10121{
+    width: 184px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.glav102{
+    width: 25%;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.glav1021{
+    width: 37px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1022{
+    width: 62px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1023{
+    width: 33px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1024{
+    width: 59px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glav103{
+    width: 25%;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.glav1031{
+    width: 58px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1032{
+    width: 77px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1033{
+    width: 73px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1034{
+    width: 30px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav104{
+    height: 340px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.glav1041{
+    width: 100%;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.glav10411{
+    width: 250px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav10412{
+    width: 431px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav10413{
+    width: 412px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav104131{
+    width: 327px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav104132{
+    width: 79px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav1042{
+    width: 100%;
+    height: 227px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.glav10421{
+    width: 282px;
+    height: 16px;
+    margin: 0 10px 10px 0;
+}
+.glav10101{
+    width: 50%;
+    height: 340px;
+    display: flex;
+}
+@media screen and (max-width:1000px){
+    .glav1042{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:850px){
+    .glav10{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+}
+@media screen and (max-width:750px){
+    .glav10101{
+        display: flex;
+        flex-direction: column;
+    }
+    .glav10{
+        height: 1100px;
+    }
+    .glav1011{
+        align-items: center;
+    }
+    .glav101{
+        width: 500px;
+        align-items: center;
+    }
+    .glav102{
+        width: 500px;
+        align-items: center;
+    }
+    .glav103{
+        width: 500px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:380px){
+    .glav101{
+        width: 350px;
+        align-items: center;
+    }
+    .glav102{
+        width: 350px;
+        align-items: center;
+    }
+    .glav103{
+        width: 350px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:460px){
+    .glav1041{
+        height: 200px;
+    }
+    .glav10412{
+        width: 350px;
+        height: 100px;
+    }
+    .glav10413{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 200px;
+    }
+}
+.glav10112 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 20px;
+}
+.glav10121 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 14px;
+}
+.glav1021 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 20px;
+}
+.glav1022 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 15px;
+}
+.glav1023 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 14px;
+}
+.glav1024 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 15px;
+}
+.glav1031 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 20px;
+}
+.glav1032 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 14px;
+}
+.glav1033 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 14px;
+}
+.glav1034 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 15px;
+}
+.glav10411 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 35px;
+}
+.glav10412 p{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 18px;
+}
+.glav10421 h1{
+    font-family: 'Outfit';
+    color: #2F2F2F;
+    font-size: 15px;
+}
+.glav10421 h1 span{
+    color: #FF7F96;
+}
+.glav104131 input{
+    width: 327px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+.glav104132 button{
+    width: 79px;
+    height: 40px;
+    border: black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Outfit';
+    font-size: 14px;
+    transition: .5s;
+}
+.glav104132 button:hover{
+    border: white;
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}

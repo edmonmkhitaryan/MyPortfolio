@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="calc"> 
+    <textarea id="copyArea" cols="30" rows="10"></textarea>
+    <div id="container"> 
+    <div class="row"> 
+      <button>.</button>
+      <button>&larr;</button> 
+      <button>&radic;</button> 
+      <button>%</button> 
+    </div> 
+    <div class="row"> 
+        <button id="copy">MC</button>
+        <button id="paste">MR</button>
+        <button onclick="m()">M+</button> 
+        <button onclick="mm()">M-</button> 
+      </div>
+      <div class="row"> 
+        <button class="pak">(</button> 
+        <button class="pak">)</button> 
+      </div>  
+    <div class="row"> 
+      <button>7</button> 
+      <button>8</button> 
+      <button>9</button> 
+      <button value = "/">÷</button> 
+    </div> 
+    <div class="row"> 
+      <button>4</button> 
+      <button>5</button> 
+      <button>6</button> 
+      <button value = "*" id="bazm">&#10006;</button> 
+    </div> 
+    <div class="row"> 
+      <button>1</button> 
+      <button>2</button> 
+      <button>3</button> 
+      <button value = "-">-</button> 
+    </div> 
+    <div class="row">  
+      <button>C</button>
+      <button>0</button>  
+      <button value = "+">+</button>
+      <button>=</button> 
+    </div> 
+    </div> 
+  </div> 
+  <script src="js/script.js"></script>      
+</body>
+</html>

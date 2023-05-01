@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.glav{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.glav1{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.glav1 div{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mek img{ 
+    width: 5%;
+    height: 30%;
+}
+.mek .search{
+    width: 80%;
+    height: 80%;
+    background-color:#F4F4F5;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 30px;
+    font-size: 20px;
+    justify-self: flex-end;
+}
+[type='search']{
+    width: 85%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    outline: none;
+    background-color:#F4F4F5;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+[type='search']::placeholder{
+    color: #ccc;
+}
+.fas.fa-search{
+    color: #ccc;
+}
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.hover .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #71B2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover .img img{
+    width: 20px;
+    height: 20px;
+}
+.hover .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 90%;
+}
+.hover .text h1{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.hover .text h1 img{
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 5px;
+}
+.hover .text p{
+    color: #707581;
+    display: flex;
+    align-items: center;
+}
+.hover .text p img{
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+}
+.hover .time{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 90%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hover .time img{
+    width: 20px;
+    height: 20px;
+}
+.hover .time p{
+    display: flex;
+    align-items: center;
+}
+.hover .time p img{
+    width: 15px;
+    height: 15px;
+}
+.ereq{
+    background-color: #3390EC;
+    color: white;
+}
+
+.ereq .text p{
+    color: white;
+}
+.hover{
+    cursor: pointer;
+}
+.hover:hover{
+    background-color: #F4F4F5;
+}
+.ereq:hover{
+    background-color: #3390EC;
+}
+.hover:active{
+    background-color: #3390EC;
+    color: white;
+}
+.hover:active .text p{
+    color: white;
+}
+.ereq img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.chors img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.hing img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.vec img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.yot img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.ut img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.inn img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.tas img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.tasmek img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.hover .kanach{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #00C73E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover .kanach h1{
+    color: white;
+    font-size: 17px;
+}
+.vec .kanach{
+    width: 40px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #C4C9CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verj .kanach{
+    width: 40px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #00C73E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glav2{
+    width: 70%;
+    height: 100%;
+    background-image: url(../img/photo1662537580.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.glav2 header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-left: #707581 solid 0.5px;
+}
+.glav2 header img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 20px;
+}
+.glav2 header h1{
+    font-size: 20px;
+}
+.glav2 header p{
+    font-size: 15px;
+    color: #707581;
+}
+.glav2 header .img{
+    width: 81%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.glav2 header .img img{
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+}
+.glav2 header .img .nkar{
+    margin: 0 0 0 20px;
+}
+main{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content:center;
+}
+main .chat{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .chat div{
+    width: 100%;
+    height: 7.6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.chat .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat .center div{
+    background-color: #619D5F;
+    border-radius: 30px;
+    width: 10%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+}
+.chat .center2 div{
+    background-color: #619D5F ;
+    border-radius: 30px;
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+}
+.chat .right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.chat div .mek{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .mek div{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .mek img{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+.chat div .mek b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #3390EC;
+    margin: 0 0  0 10px;
+}
+.chat div .mek h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+.chat div .erku{
+    width: 44%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .erku div{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .erku b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #3390EC;
+    margin: 0 0  0 10px;
+}
+.chat div .erku h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+.chat div .erku .dem{
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+ }
+ .chat div .mek .dem{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71B2F1;
+ }
+ .chat div .mek .dem h1{
+    color: white;
+    font-size: 15px;
+    margin: 0 3px 0 0 ;
+ }
+ .chat div .chors{
+    width: 15%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .chors div{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .chors img{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+.chat div .chors b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #3390EC;
+    margin: 0 0  0 10px;
+}
+.chat div .chors h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+
+.chat div .hing{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .hing div{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .hing img{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+.chat div .hing b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #FF7A60;
+    margin: 0 0  0 10px;
+}
+.chat div .hing h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+.chat div .hing .dem{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7A60;
+ }
+ .chat div .hing .dem h1{
+    color: white;
+    font-size: 15px;
+    margin: 0 3px 0 0 ;
+ }
+
+
+ .chat div .vec{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .vec div{
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .vec img{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+.chat div .vec b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #FF7A60;
+    margin: 0 0  0 10px;
+}
+.chat div .vec h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+.chat div .vec .dem{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7A60;
+ }
+ .chat div .vec .dem h1{
+    color: white;
+    font-size: 15px;
+    margin: 0 3px 0 0 ;
+ }
+
+.chat div .yot{
+    width: 10%;
+    height: 50%;
+    background-color: #EEFFDE;
+    border-radius: 15px 15px 0 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .yot h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+
+.chat div .verj{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chat div .verj div{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.chat div .verj img{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+.chat div .verj b{
+    font-size: 15px;
+    margin: 0 250px 0 0 ;
+    color: #3390EC;
+    margin: 0 0  0 10px;
+}
+.chat div .verj h1{
+    font-size: 15px;
+    margin: 0 0  0 10px;
+    color: #707581;
+}
+
+.chat div .verj .dem{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71B2F1;
+ }
+ .chat div .verj .dem h1{
+    color: white;
+    font-size: 15px;
+    margin: 0 3px 0 0 ;
+ }
+
+ .chatt .inputs{ 
+    width: 100%; 
+    height: 50px;   
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.input2{ 
+    width: 100%; 
+   height: 50px; 
+   border-radius: 10px 10px 0px 10px; 
+   border:none ; 
+   padding-left: 40px; 
+   outline: none; 
+} 
+.gols{ 
+    width:60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-image:linear-gradient( to top,blue, blue,white); 
+    margin: 0 0 0 20px; 
+    cursor: pointer; 
+    transition: 2s; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 11px; 
+} 
+.gols:hover{ 
+transform: scale(1.1); 
+} 
+.icon2{ 
+    width: 40%; 
+    height: 40%; 
+    transition: 1s; 
+  } 
+
+  .chat .chatt{
+    width: 100%;
+    height: 7.6%;
+  }

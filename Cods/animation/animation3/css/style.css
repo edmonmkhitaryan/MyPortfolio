@@ -1,0 +1,17 @@
+.coin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coinimg{
+    height: 505px;
+    width: 123.5px;
+    background: url(../img/coin.png) 0px 0px ;
+    animation: play 1s steps(10) infinite;
+}
+@keyframes play{
+    100%{
+        background-position: -494px;
+    }
+}

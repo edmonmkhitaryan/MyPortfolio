@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151515;
+}
+.gund{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 100%;
+    border: azure solid 5px;
+    animation: anim 3s infinite alternate;
+}
+@keyframes anim{
+    0%{
+        transform: rotate3d(1,0,0,0deg);
+    }
+    10%{
+        transform: skewY(0deg);
+    }
+    20%{
+        transform: skewY(20deg);
+    }
+    30%{
+        transform: skewX(0deg);
+    }
+    40%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: rotate3d(1,0,0,90deg);
+    }
+    60%{
+        transform: rotate3d(0,1,0,0deg);
+    }
+    70%{
+        transform: rotate3d(0,1,0,90deg);
+    }
+    80%{
+        transform: rotate3d(0,0,1,0deg);
+    }
+    90%{
+        transform: rotate3d(0,0,1,90deg);
+    }
+    100%{
+        transform: rotate3d(1,0,0,0deg);
+    }
+
+}

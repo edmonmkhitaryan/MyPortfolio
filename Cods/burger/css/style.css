@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1A;
+}
+.glav{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    width: 32%;
+    height: 1000px;
+    border: solid 3px white;
+    display: flex ;
+    flex-wrap: wrap;
+    margin: 40px 0 0 0 ;
+}
+.div1 .h11{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div11{
+    width: 100%;
+    height: 60px;
+}
+.div11 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div11 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div12{
+    width: 100%;
+    height: 60px;
+}
+.div12 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div12 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div13{
+    width: 100%;
+    height: 60px;
+}
+.div13 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div13 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div14{
+    width: 100%;
+    height: 70px;
+}
+.div14 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div14 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div15{
+    width: 100%;
+    height: 70px;
+}
+.div15 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div15 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div16{
+    width: 100%;
+    height: 70px;
+}
+.div16 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div16 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div17{
+    width: 100%;
+    height: 70px;
+}
+.div17 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div17 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div18{
+    width: 100%;
+    height: 70px;
+}
+.div18 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div18 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.glav2{
+    width: 32%;
+    height: 1006px;
+    display:flex ;
+    flex-direction: column;
+    margin: 40px 10px ;
+}
+.div2{
+    height: 650px;
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.div2 .images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 400px;
+}
+.div2 .images img{
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+.div2 .logo{
+    color: #D99533;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.div2 .prem{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.div2 .burg{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+}
+.div2 .kargit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #D99533;
+    font-family: 'Oswald', sans-serif;
+}
+.div2 .burger{
+    width: 300px;
+    height: 265px;
+    margin: 40px 0 0 100px;
+}
+.div3{
+    height: 350px;
+    border: solid 3px white;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.div3 .glav4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0 ;
+}
+.div3 .send{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: start;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div3 .div31{
+    width: 48%;
+    height: 80px;
+    font-size: 11px;
+}
+.div31 h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin:  0 0 0 10px;
+}
+.div31 p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    margin:  0 0 0 10px;
+}
+.div3 .div32{
+    width: 48%;
+    height: 80px;
+    font-size: 11px;
+}
+.div32 h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin:  0 0 0 10px;
+}
+.div32 p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    margin:  0 0 0 10px;
+}
+.div3 .div33{
+    width: 48%;
+    height: 80px;
+    font-size: 11px;
+}
+.div33 h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin:  0 0 0 10px;
+}
+.div33 p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    margin:  0 0 0 10px;
+}
+.div3 .div34{
+    width: 48%;
+    height: 80px;
+    font-size: 11px;
+}
+.div34 h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin:  0 0 0 10px;
+}
+.div34 p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    margin:  0 0 0 10px;
+}
+.glav3{
+    width: 32%;
+    height: 1006px;
+    display:flex ;
+    flex-direction: column;
+    margin: 40px 0 ;
+}
+.div4{
+    height: 550px;
+    border: solid 3px white;
+    display: flex ;
+    flex-wrap: wrap;
+}
+.div4 .fried{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div4 .spec{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div41{
+    width: 100%;
+    height: 60px;
+}
+.div41 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div41 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div42{
+    width: 100%;
+    height: 60px;
+}
+.div42 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div42 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div43{
+    width: 100%;
+    height: 60px;
+}
+.div43 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div43 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div5{
+    height: 450px;
+    border: solid 3px white;
+    display: flex ;
+    flex-wrap: wrap;
+}
+.div5{
+    height: 550px;
+    border: solid 3px white;
+    display: flex ;
+    flex-wrap: wrap;
+}
+.div5 .fried{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div5 .drink{
+    color: #D99533;
+    font-size: 40px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 0 20px;
+}
+.div51{
+    width: 100%;
+    height: 60px;
+}
+.div51 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div51 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div52{
+    width: 100%;
+    height: 60px;
+}
+.div52 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div52 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div53{
+    width: 100%;
+    height: 60px;
+}
+.div53 h1{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.div53 p{
+    font-size: 13px;
+    color: white;
+    margin: 0 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+@media screen and (max-width:1300px){
+    .glav{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        height: 1100px;
+    }
+    .div5{
+        height: 550px;
+    }
+}
